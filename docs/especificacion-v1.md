@@ -23,7 +23,7 @@ Given a garment from a ProductPass passport and the condition the customer repor
 ## The three rules
 | If the condition is... | Action | Reason |
 |---|---|---|
-| `good` | Keep it or donate it | It still works, so it can keep being used, by me or by someone else |
+| `good` | Keep it or donate it | It still works, so it can keep being used, by you or by someone else |
 | `damaged` | Explore repair | A fix may make it usable again before anyone throws it away |
 | `unknown` | Ask for more information | The app can't suggest anything sensible until it knows more |
 
@@ -32,8 +32,8 @@ All three use the same garment, the HeySalad Reusable Tote Bag (70% recycled cot
 
 | Case | Condition | Action | Reason | Missing information | Limitation notice |
 |---|---|---|---|---|---|
-| A | `good` | Keep it or donate it | It still works, so it can keep being used | Where to donate it | I don't know what donation options exist where you live |
-| B | `damaged` | Explore repair | A fix may make it usable again | What kind of damage it is | I can't judge how serious the damage is or whether it can be repaired |
+| A | `good` | Keep it or donate it | It still works, so it can keep being used, by you or by someone else | Where to donate it | I don't know what donation options exist where you live |
+| B | `damaged` | Explore repair | A fix may make it usable again before anyone throws it away | What kind of damage it is | I can't judge how serious the damage is or whether it can be repaired |
 | C | `unknown` | Ask for more information | I can't suggest anything without knowing the condition | The condition of the garment | I can't see the garment, so I won't guess |
 
 ## Out of scope in this version
