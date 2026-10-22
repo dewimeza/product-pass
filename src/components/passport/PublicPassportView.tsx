@@ -5,6 +5,7 @@ import { calculateComplianceScore } from "@/lib/compliance";
 import { CLAIM_TYPE_LABELS } from "@/lib/constants";
 import { VerificationBadgeFromCompliance } from "./VerificationBadge";
 import LifecycleActions from "./LifecycleActions";
+import CircularityNextStep from "./CircularityNextStep";
 import { QRCodeSVG } from "qrcode.react";
 import BrandIcon from "@/components/BrandIcon";
 import BrandWordmark from "@/components/BrandWordmark";
@@ -265,6 +266,10 @@ export default function PublicPassportView({
               <p className="mt-3 text-xs text-slate-500">Scan for product passport</p>
             </div>
           </div>
+        </div>
+
+        <div className="mt-8">
+          <CircularityNextStep passport={passport} />
         </div>
 
         <div className="mt-8">
