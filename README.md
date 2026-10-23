@@ -60,6 +60,7 @@ Nothing else in the original project was changed.
 | [docs/revision-17-oct.md](docs/revision-17-oct.md) | Review note with my reviewer |
 | [docs/implementacion.md](docs/implementacion.md) | Files changed and the flow from click to result |
 | [docs/pruebas.md](docs/pruebas.md) | Three tested cases, extra checks, and the risk I noted |
+| [docs/reflexion.md](docs/reflexion.md) | My reflection: what I learned, what I did myself and with assistance, and week 2 ideas |
 
 ## How it was built
 
